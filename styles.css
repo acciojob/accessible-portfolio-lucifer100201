@@ -1,2 +1,33 @@
 
-/* Your CSS Code here. */
+/* Add your CSS styles here */
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
